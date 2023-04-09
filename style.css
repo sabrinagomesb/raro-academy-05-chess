@@ -76,6 +76,7 @@ body {
   /* margin-bottom: 5%; */
 
 .coords {
+  position: absolute;
   font-size: 0.75rem;
   font-family: Verdana, sans-serif;
 }
@@ -87,6 +88,9 @@ body {
 }
 
 .coords-left {
+  align-self: flex-start;
+  margin-top: 4%;
+  margin-right: 75%;
 }
 
 .text-dark {
