@@ -67,10 +67,32 @@ body {
   background-color: var(--square-light);
 }
 
-span {
+/* span {
   position: absolute;
   align-self: flex-end;
-  margin-left: 60%;
-  font-size: 1rem;
+  margin-left: 73%;
+  font-size: 0.75rem;
+  font-family: Verdana, sans-serif;
   /* margin-bottom: 5%; */
+
+.coords {
+  font-size: 0.75rem;
+  font-family: Verdana, sans-serif;
+}
+
+.coords-bottom {
+  position: absolute;
+  align-self: flex-end;
+  margin-left: 73%;
+}
+
+.coords-left {
+}
+
+.text-dark {
+  color: var(--square-light);
+}
+
+.text-light {
+  color: var(--square-dark);
 }
