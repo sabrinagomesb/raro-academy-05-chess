@@ -1,13 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --bg-color: #222222;
   --square-dark: #424242;
   --square-light: #bcbcbc;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -59,10 +59,18 @@ body {
   transition: 800ms ease;
 }
 
-.dark {
+.square-dark {
   background-color: var(--square-dark);
 }
 
-.light {
+.square-light {
   background-color: var(--square-light);
+}
+
+span {
+  position: absolute;
+  align-self: flex-end;
+  margin-left: 60%;
+  font-size: 1rem;
+  /* margin-bottom: 5%; */
 }
